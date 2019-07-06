@@ -1,0 +1,130 @@
+body {
+    direction: rtl;
+}
+
+#container {
+    width: 960px;
+    margin: 0 auto;
+    padding: 50px 50px;
+}
+
+h1, h2, h3, p, ol, ul, li, a, .single-item {
+    font-family: 'Assistant', sans-serif;
+}
+
+h1 {
+    font-size: 32px;
+    color: white;
+    padding: 20px 0;
+    margin-right: 20px;
+}
+
+#title_bg {
+    background-color: teal;
+    border-right: 10px solid black;
+}
+
+h2 {
+    font-size: 28px;
+    padding: 30px 0;
+}
+
+h3 {
+    font-size: 22px;
+    padding: 30px 0;
+}
+
+p, li {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+a {
+    color: #901439;
+    text-decoration: underline;
+}
+
+    a:hover {
+        background-color: darkblue;
+        color: white;
+        text-decoration: none;
+    }
+
+#in_this_unit {
+    width: 60%;
+    border-radius: 25px;
+    margin-right: 20%;
+    margin-top: 50px;
+    padding: 20px 0;
+    background-color: #e6e6e6;
+    background-image: url(../images/book_icon.JPG);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right center;
+}
+
+    #in_this_unit ul > li, #in_this_unit p {
+        font-family: 'Arial';
+    }
+
+    #in_this_unit p {
+        margin-right: 30%;
+    }
+
+    #in_this_unit ul {
+        margin-right: 40%;
+    }
+
+#bottles {
+    float: right;
+    height: 20%;
+    width: 20%;
+}
+
+#materials {
+    margin-top: 5%;
+    margin-right: 25%;
+}
+
+    #materials ol, #experiment ol {
+        margin-right: 5%;
+    }
+
+#experiment {
+    margin-top: 10%;
+}
+
+#theanomaly p {
+    padding: 10px;
+}
+
+#ice {
+    height: 15%;
+    width: 15%;
+    margin-left: 2%;
+    float: right;
+}
+
+#teaser {
+    text-align: center;
+}
+
+#colorline {
+    font-size: 22px;
+    font-weight: bold;
+    color: teal;
+    margin: 20px 0;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: teal !important;
+}
+
+.single-item {
+    background-color: teal;
+    color: white;
+    width: 75%;
+    padding: 20px 10px;
+    margin-right: 20px;
+}
